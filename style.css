@@ -1,0 +1,668 @@
+* {
+    font-family: Museo Sans, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* HOME */
+/* header */
+
+img#home {
+    width: 4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4em;
+}
+
+hr {
+    border: 0.03rem solid #A6C4C4;
+    width: 96%;
+    margin-top: -0.7em;
+}
+
+header nav ul li {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+header nav ul li a img {
+    width: 1em;
+    height: 1em;
+    padding: 0.3em 0.6em;
+    border: 0.09em solid #99258E;
+    border-radius: 0.2rem;
+    margin: 0.3em 0.3em 0.5em;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    top: 0em;
+    right: 0em;
+    left: 0em;
+    padding-bottom: 1em;
+    padding-top: 0.2em;
+    margin-bottom:
+}
+
+/* tekst */
+
+img#achtergrond {
+    width: 100%;
+    max-height: 15em;
+}
+
+img#achtergrond2 {
+    width: 100%;
+    min-height: 25em;
+}
+
+p.tekst {
+    text-align: center;
+    color: white;
+    max-width: 20em;
+    margin: 0 auto;
+}
+
+section#tekst {
+    margin-top: 5em;
+    min-height: 15em;
+}
+
+p#tekst1 {
+    margin-top: -8em;
+    text-align: center;
+    color: #FFDE5E;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+p#tekst2 {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+p#tekst3 {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #FFDE5E;
+}
+
+
+/* formulier */
+form {
+    background-color: #FAFAFA;
+    border: 0.2rem solid #EEEEEE;
+    margin: 1em auto 3em auto;
+}
+
+legend {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: white;
+    padding: 0.9em;
+    background-color: #99258E;
+    margin: 0.3em;
+}
+
+legend > img {
+    width: 0.9em;
+    margin-left: 0.4rem;
+    margin-right: 1rem;
+}
+
+select {
+    margin: 0.5rem 6%;
+    width: 88%;
+    height: 3rem;
+    border: 0.2rem solid #EEEEEE;
+    background-color: white;
+    color: #445757;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.1rem;
+    padding-left: 1rem;
+    max-width: 50rem;
+}
+
+select#leesduur {
+    width: 45%;
+    margin: 1rem 11% 2rem 6%;
+}
+
+button#zoeken {
+    display: inline-block;
+    text-decoration: none;
+    height: 3rem;
+    width: 30%;
+    max-width: 13em;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #99258E;
+    color: white;
+    border-radius: 0.1rem;
+    text-align: center;
+}
+
+button a {
+    color: white;
+}
+
+button#verrasme {
+    color: black;
+    height: 3rem;
+    display: block;
+    text-transform: uppercase;
+    margin: -0.5em auto 0.8rem auto;
+    background-color: #FFDE5E;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 0.1rem;
+    padding: 0 1rem;
+}
+
+legend#form2genre {
+    text-transform: capitalize;
+    background: none;
+    color: #2A4040;
+    font-weight: 500;
+    font-size: 1.4em;
+    padding: 0;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+label.formresp {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+    display: inline-block;
+    width: 5.3rem;
+    margin: 0.2em;
+    color: 2A4040;
+}
+
+form#form2 {
+    border: 2.5px solid #99258E;
+}
+
+fieldset {
+    margin-left: 3.5rem;
+    margin-bottom: 9rem;
+    border: none;
+    display: inline-block;
+    max-width: 24em;
+
+}
+
+fieldset#leesduur {
+    display: inline-block;
+    max-width: 16rem;
+    border: none;
+}
+
+
+input[type=checkbox]:checked + label,
+input[type=checkbox]:hover + label{
+    background-color: #99258E;
+    color: white;
+}
+
+
+
+/* verhalen */
+h2 {
+    text-align: center;
+    color: #445757;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+section > a {
+    display: inline-block;
+    background-color: #FFDE5E;
+    max-width: 11rem;
+    max-height: 10rem;
+    padding-left: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+section > a:hover {
+    background-color: white;
+    border: 0.1px solid black;
+}
+
+section > a > img {
+    max-width: 10rem;
+    margin-left: -1rem;
+}
+
+section > a > ul {
+    margin-left: -2.5rem;
+    text-align: left
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+p {
+    text-align: left;
+    font-size: 0.9rem;
+
+}
+
+li.checked {
+    color: #99258E;
+}
+
+section#artikelen {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* OVERZICHT */
+
+form#formulier {
+    margin-top: 6em;
+    margin: 6em auto 3em auto;
+    width: 96%;
+    text-align: center;
+    padding-bottom: 0.6em;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label {
+    margin: 0.6em;
+}
+
+input[type=radio]:checked + label {
+    padding: 0.2em 0.6em;
+    background-color: #FFDE5E;
+    border-radius: 0.5em;
+}
+
+
+
+legend {
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0.6em;
+}
+
+
+/* VERHAAL */
+
+img#boekverhaal {
+    margin: 6em 0 -0.7em 4%;
+    width: 1.3em;
+}
+
+h2#titel {
+    text-align: left;
+    margin-left: 4%;
+}
+
+p#info {
+    text-align: left;
+    margin: -0.7em 0.8em;
+    margin-left: 4%;
+
+}
+
+img.beroemd {
+    width: 90%;
+    display: block;
+    margin: 4em auto;
+}
+
+img#leeg {
+    width: 15em;
+    display: block;
+    margin: 0 auto;
+}
+
+body > nav > ul > li {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -7em;
+    margin-right: 2%;
+}
+
+body > nav > ul > li > a > img {
+    width: 1em;
+    height: 1em;
+    padding: 0.3em 0.6em;
+    border: 0.09em solid #2A4040;
+    border-radius: 0.2rem;
+    margin: 0.3em 0.3em 0.5em;
+}
+
+img#download:hover, img#download:active  {
+    background-color: #99258E;
+}
+
+img#favo:hover {
+    background-color: #FFDE5E;
+}
+
+button {
+    height: 3rem;
+    display: block;
+    text-transform: uppercase;
+    margin: 1em auto 2em;
+    background-color: #99258E;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 0.1rem;
+    padding: 0 1rem;
+}
+
+.before {
+    color: black;
+}
+
+.after {
+    color: #FFDE5E;
+}
+
+/* INLOGGEN */
+
+form#login {
+    margin-top: 6em;
+}
+
+legend#signin {
+    background-color: #FFDE5E;
+    color: #445757;
+}
+
+input {
+    display: block;
+    width: 90%;
+    max-width: 20rem;
+    height: 2rem;
+    margin: 1em auto;
+    padding-left: 1rem;
+    font-size: 0.9em;
+    background-color: white;
+    border: 2px solid #EAEAEA;
+}
+
+button#loginknop {
+    height: 3rem;
+    display: block;
+    text-transform: uppercase;
+    margin: 1em auto 0.8rem auto;
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 0.1rem;
+    padding: 0 1rem;
+}
+
+section#favoriet {
+    text-align: left;
+    margin-left: 2%;
+}
+
+/* OFFLINE */
+
+p#tekst4 {
+    margin: -8em auto 0;
+    text-align: center;
+    color: #FFDE5E;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+p#tekst5 {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+p#tekst6 {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #FFDE5E;
+}
+
+p#offlinetekst {
+    font-size: 1.4em;
+    text-align: center;
+    margin: 2em auto;
+    max-width: 30em;
+    color: #445757;
+}
+
+button#downloads {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    height: 3rem;
+    width: 10em;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #99258E;
+    color: white;
+    border-radius: 0.1rem;
+    text-align: center;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 25rem) {
+    p#tekst1 {
+        font-size: 80%;
+        margin-top: -52%;
+    }
+    p#tekst2 {
+        font-size: 80%;
+    }
+
+    p#tekst3 {
+        font-size: 80%;
+    }
+
+    form#form1 {
+        margin-top: -0.5em;
+    }
+}
+
+@media (min-width: 85rem) {
+    form#form1 {
+        display: none;
+    }
+
+    button#zoeken {
+        margin: -7em auto 2em;
+        display: block
+    }
+
+    img#achtergrond {
+        display: none;
+    }
+
+    img#achtergrond2 {
+        width: 100%;
+        max-height: 20em;
+    }
+
+    form#form2 {
+        position: absolute;
+        top: 7.5em;
+        margin-left: 3em;
+    }
+
+    p#tekst1 {
+        position: absolute;
+        top: 25rem;
+        left: 57rem;
+        font-size: 2rem;
+        min-width: 13em;
+    }
+
+    p#tekst2 {
+        position: absolute;
+        top: 14rem;
+        left: 55rem;
+        min-width: 20em;
+        font-size: 1.5rem;
+    }
+
+    p#tekst3 {
+        position: absolute;
+        top: 22rem;
+        left: 60rem;
+        min-width: 13em;
+        font-size: 1.5rem;
+    }
+
+    p#tekst4 {
+        margin: -10em auto 0;
+        font-size: 2rem;
+        min-width: 13em;
+    }
+
+    p#tekst5 {
+        margin: 1em auto;
+        min-width: 20em;
+        font-size: 1.5rem;
+    }
+
+    p#tekst6 {
+        margin: 0 auto;
+        min-width: 13em;
+        font-size: 1.5rem;
+    }
+
+    p#offlinetekst {
+        margin-top: 5em;
+        font-size: 1.7rem;
+    }
+
+    section#artikelen {
+        margin-top: 7em;
+
+    }
+
+    button#zoeken {
+        margin-top: -8em;
+        margin-bottom: 1.5em;
+    }
+
+}
+
+@media (max-width: 85rem) {
+    img#achtergrond2 {
+        display: none;
+        min-width: 100%;
+    }
+
+    form#form2 {
+        display: none;
+    }
+}
+
+@media (min-width: 105rem) {
+    form#form2 {
+        margin-left: 10%
+    }
+
+    p#tekst1 {
+        left: 65%;
+    }
+
+    p#tekst2 {
+        left: 63%;
+    }
+
+    p#tekst3 {
+        left: 67%;
+    }
+}
+
+@media (max-width: 20rem) {
+    img#foto2 {
+        display: none;
+    }
+    img#foto3 {
+        display: none;
+    }
+    section#beschrijving {
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 20rem) {
+    img#foto1 {
+        display: none;
+    }
+    img#foto3 {
+        display: none;
+    }
+
+    section#beschrijving {
+        margin-left: 2%;
+    }
+
+    body > nav > ul > li {
+        margin-right: 4%;
+    }
+
+    section > a {
+        width: 100rem;
+        height: 100rem;
+    }
+
+    section > a > img {
+        min-width: 109%;
+    }
+}
+
+@media (min-width: 60rem) {
+    img#foto1 {
+        display: none;
+    }
+    img#foto2 {
+        display: none;
+    }
+    img#foto3 {
+        display: block;
+    }
+    img.beroemd {
+        width: 60%;
+    }
+    section#beschrijving {
+        margin-left: 17%;
+    }
+    body > nav > ul > li {
+        margin-right: 20.5%;
+    }
+}
+
+

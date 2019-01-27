@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>99 verhalen</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/wowairlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ <header>
+    <nav>
+        <ul>
+            <li>
+                <a href="inloggen.html">
+                    <img src="images/favorieten.png" alt="favorieten">
+                </a>
+                <a href="">
+                    <img src="images/zoeken.png" alt="zoeken">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <a href="index.html">
+        <img src="images/wowairlogo.png" alt="logo" id="home">
+    </a>
+    <hr>
+
+ </header>
+
+
+ <section id="tekst">
+     <img src="images/achtergrond2.jpg" alt="" id="achtergrond">
+     <img src="images/achtergrond.jpg" alt="" id="achtergrond2">
+     <p id="tekst1" class="tekst">Welkom op de 99 verhalen <br> website van wow air!</p>
+     <p id="tekst2" class="tekst">Wij bieden u exclusieve toegang tot deze verhalenwebsite omdat wij u willen bedanken voor het kiezen van wow air.</p>
+     <p id="tekst3" class="tekst">Veel lees en reisplezier!</p>
+ </section>
+
+
+ <form action="" id="form1">
+     <legend><img src="images/boek.png" alt="boek" id="boek"> zoek een verhaal</legend>
+        <select name="genre">
+            <option value="">Genre <img src="images/driehoek.svg" id="driehoek"> </option>
+            <option value="Biografie">Biografie</option>
+            <option value="Detective">Detective</option>
+            <option value="Horror">Horror</option>
+            <option value="Humor">Humor</option>
+            <option value="Roman">Roman</option>
+            <option value="Sci-fi">Sci-fi</option>
+        </select>
+        <select name="leesduur" id="leesduur">
+            <option value="">Leesduur</option>
+            <option value="0-5min">0 - 5 minuten</option>
+            <option value="5-15min">5 - 15 minuten</option>
+            <option value="15-30min">15 - 30 minuten</option>
+            <option value="30+min">30+ minuten</option>
+        </select>
+
+        <button id="zoeken"><a href="overzicht.html">zoeken</a></button>
+
+        <button id="verrasme"><a href="verhaal.html">verras me</a></button>
+ </form>
+ <form action="" id="form2">
+     <legend><img src="images/boek.png" alt="boek" id="boek"> zoek een verhaal</legend>
+  <fieldset id="genre">
+     <legend id="form2genre">Genre</legend>
+     <input type="checkbox" name="biografie" id="biografie">
+     <label for="biografie" class="formresp">Biografie</label>
+     <input type="checkbox" name="detective" id="detective">
+     <label for="detective" class="formresp">Detective</label>
+     <input type="checkbox" name="horror" id="horror">
+     <label for="horror" class="formresp">Horror</label>
+     <input type="checkbox" name="humor" id="humor">
+     <label for="humor" class="formresp">Humor</label>
+     <input type="checkbox" name="roman" id="roman">
+     <label for="roman" class="formresp">Roman</label>
+     <input type="checkbox" name="scifi" id="scifi">
+     <label for="scifi" class="formresp">Sci-fi</label>
+  </fieldset>
+  <fieldset id="leesduur">
+     <legend id="form2genre">Leesduur</legend>
+     <input type="checkbox" name="0-5min" id="0-5min">
+     <label for="0-5min" class="formresp">0 - 5 min</label>
+     <input type="checkbox" name="5-15min" id="5-15min">
+     <label for="5-15min" class="formresp">5 - 15 min</label>
+     <input type="checkbox" name="15-30min" id="15-30min">
+     <label for="15-30min" class="formresp">15 - 30 min</label>
+     <input type="checkbox" name="30+min" id="30+min">
+     <label for="30+min" class="formresp">30+ min</label>
+
+  </fieldset>
+
+     <button id="zoeken"><a href="overzicht.html">zoeken</a></button>
+     <button id="verrasme"><a href="verhaal.html">verras me</a></button>
+
+ </form>
+
+ <section id="artikelen">
+     <h2>Populaire verhalen</h2>
+
+     <a href="verhaal.html">
+         <h3>Droom</h3>
+         <p class="info">Roman - 20 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/droom.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Western</h3>
+         <p class="info">Biografie - 15 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/western.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Gefrustreerd</h3>
+         <p class="info">Horror - 30 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/gefrustreerd.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Beroemd</h3>
+         <p class="info">Biografie - 10 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/beroemd.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Droom</h3>
+         <p class="info">Roman - 20 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/droom.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Western</h3>
+         <p class="info">Biografie - 15 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/western.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Droom</h3>
+         <p class="info">Roman - 20 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/droom.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Western</h3>
+         <p class="info">Biografie - 15 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/western.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Gefrustreerd</h3>
+         <p class="info">Horror - 30 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/gefrustreerd.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Beroemd</h3>
+         <p class="info">Biografie - 10 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/beroemd.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Droom</h3>
+         <p class="info">Roman - 20 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/droom.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Western</h3>
+         <p class="info">Biografie - 15 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/western.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Gefrustreerd</h3>
+         <p class="info">Horror - 30 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/gefrustreerd.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Beroemd</h3>
+         <p class="info">Biografie - 10 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/beroemd.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Droom</h3>
+         <p class="info">Roman - 20 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/droom.png" alt="beroemd" id="prefoto">
+     </a>
+     <a href="verhaal.html">
+         <h3>Western</h3>
+         <p class="info">Biografie - 15 min</p>
+         <ul>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+             <li class="fa fa-star checked"></li>
+         </ul>
+         <img src="images/western.png" alt="beroemd" id="prefoto">
+     </a>
+
+ </section>
+
+
+
+</body>
+
+</html>
