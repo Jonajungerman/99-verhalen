@@ -6,7 +6,7 @@
 var img = document.querySelector('#leeg');
 
 function changeImg() {
-   img.src = '../images/gevuld.png';
+   img.src = 'images/gevuld.png';
 }
 
 img.addEventListener('click', changeImg);
@@ -16,7 +16,7 @@ img.addEventListener('click', changeImg);
 var beroemd = document.querySelector('#foto1');
 
 function draaiOm() {
-   beroemd.src = '../images/omgekeerd.png';
+   beroemd.src = 'images/omgekeerd.png';
 }
 
 beroemd.addEventListener('click', draaiOm);
@@ -25,7 +25,7 @@ beroemd.addEventListener('click', draaiOm);
 var beroemd2 = document.querySelector('#foto2');
 
 function draaiOm2() {
-   beroemd2.src = '../images/omgekeerd2.png';
+   beroemd2.src = 'images/omgekeerd2.png';
 }
 
 beroemd2.addEventListener('click', draaiOm2);
@@ -34,7 +34,7 @@ beroemd2.addEventListener('click', draaiOm2);
 var beroemd3 = document.querySelector('#foto3');
 
 function draaiOm3() {
-   beroemd3.src = '../images/omgekeerd3.png';
+   beroemd3.src = 'images/omgekeerd3.png';
 }
 
 beroemd3.addEventListener('click', draaiOm3);
